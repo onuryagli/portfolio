@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mert Yagli</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+  </head>
+  <body>
+    <header class="navigation">
+      <!-- <input type="checkbox" id="check" />
+        <label for="check" class="show-menu-btn">
+          <i class="fas fa-bars"></i>
+        </label> -->
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle"
+          ><i class="fas fa-bars"></i
+        ></span>
+        <h2 class="logo">Dr. Gokhan Mert YAGLI</h2>
+
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#mywork" class="nav_link">Featured Works</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact" class="nav_link">Contact</a>
+          </li>
+          <!-- <li class="nav_item">
+              <label for="check" class="hide-menu-btn"
+                ><i class="fas fa-times"></i
+              ></label>
+            </li> -->
+        </ul>
+      </nav>
+    </header>
+    <!-- introduction -->
+    <section class="intro">
+      <button class="gotop"><i class="fas fa-arrow-up"></i></button>
+      <div class="intro-left">
+        <img src="./images/mert_img2.png" class="image" alt="image of mert" />
+      </div>
+      <div class="intro-right">
+        <h2 class="head-head">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic porro
+          architecto inventore rerum ratione! Repellendus sint adipisci maiores
+          neque numquam?
+        </h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          culpa asperiores id ipsa consequatur molestias tempora aperiam non
+          amet ex.
+        </p>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <h2 class="about-header">What I do</h2>
+      <div class="jobs fade-in">
+        <div class="job">
+          <h3 class="job-header">lorem</h3>
+          <p class="job-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            reprehenderit omnis nesciunt, nam labore minima temporibus ab
+            repudiandae rem error.
+          </p>
+        </div>
+        <div class="job">
+          <h3 class="job-header">lorem</h3>
+          <p class="job-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            reprehenderit omnis nesciunt, nam labore minima temporibus ab
+            repudiandae rem error.
+          </p>
+        </div>
+        <div class="job">
+          <h3 class="job-header">lorem</h3>
+          <p class="job-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            reprehenderit omnis nesciunt, nam labore minima temporibus ab
+            repudiandae rem error.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="mywork" id="mywork">
+      <div class="mywork-title-citenum">
+        <h1 class="work-title">Featured Works</h1>
+      </div>
+
+      <div class="paper-slideshow-container">
+        <p class="cite-num">Recent Citations: <span id="cite-number"></span></p>
+        <div class="paper-slides fade-in">
+          <h3 class="paper-title">
+            Automatic hourly solar forecasting using machine learning models
+          </h3>
+          <q class="tra"
+            >In this article, the hourly forecasting performance of 68 machine
+            learning algorithms is evaluated for 3 sky conditions, 7 locations,
+            and 5 climate zones in the continental United States. To ensure a
+            fair comparison, no hybrid model is considered, and only
+            off-the-shelf implementations of these algorithms are used.
+            Moreover, all models are trained using the automatic tuning
+            algorithm available in the R caret package. It is found that
+            tree-based methods consistently perform well in terms of two-year
+            overall results, however, they rarely stand out during daily
+            evaluation. Although no universal model can be found, some preferred
+            ones for each sky and climate condition are advised.</q
+          ><br />
+          <a
+            href="https://www.sciencedirect.com/science/article/abs/pii/S1364032119300905"
+            target="_blank"
+            class="paperlinks"
+            >Click here to access this paper</a
+          >
+          <a
+            class="paperlinks"
+            target="_blank"
+            href="https://scholar.google.com/citations?user=DCDq2T0AAAAJ&hl=en"
+            >Click here to see all my papers</a
+          >
+        </div>
+        <div class="paper-slides">
+          <h3 class="paper-title">
+            Reconciling solar forecasts: Sequential reconciliation
+          </h3>
+          <q
+            >When forecasting hierarchical photovoltaic (PV) power generation in
+            a region and/or over several forecast horizons, reconciliation is
+            needed to ensure the sum of lower-level forecasts add up exactly to
+            the upper-level forecasts. Previously in “Reconciling solar
+            forecasts: Geographical hierarchy” [Sol. Energy 146 (2017) 276–286]
+            and “Reconciling solar forecasts: Temporal hierarchy” [Sol. Energy
+            158 (2017) 332–346], forecast reconciliation has been demonstrated
+            for geographical and temporal hierarchies, separately. This article
+            follows such frameworks and extends the reconciliation to
+            spatio-temporal cases. More specifically, sequential reconciliation
+            is used for operational day-ahead forecasting of 318 PV systems in
+            California. It is shown that by using sequential reconciliation,
+            aggregate-consistent forecasts can be obtained across both the
+            geographical and temporal hierarchies. In addition, the forecast
+            accuracy can be further improved from that of the single-hierarchy
+            cases.</q
+          >
+          <a
+            href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X18312726"
+            target="_blank"
+            class="paperlinks"
+            >Click here to access this paper</a
+          >
+          <a
+            class="paperlinks"
+            target="_blank"
+            href="https://scholar.google.com/citations?user=DCDq2T0AAAAJ&hl=en"
+            >Click here to see all my papers</a
+          >
+        </div>
+        <div class="paper-slides">
+          <h3 class="paper-title">Quality Control for Solar Irradiance Data</h3>
+          <q
+            >With the advent of sensing technology, high-resolution data have
+            become ubiquitous among various smart grid applications. Whereas the
+            data provide valuable empirical evidence, they are often, if not
+            always, subject to significant measurement uncertainty. However, nor
+            is there any standardized procedure to quality control (QC) these
+            data. In this regard, this paper investigates the well-known dataset
+            from the Baseline Solar Radiation Network (BSRN). BSRN archives
+            (mostly) 1-min solar irradiance data from 60 stations around the
+            world for over two decades. A six-step QC procedure is demonstrated
+            using the BSRN data.</q
+          >
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/8467892"
+            target="_blank"
+            class="paperlinks"
+            >Click here to access this paper</a
+          >
+          <a
+            class="paperlinks"
+            target="_blank"
+            href="https://scholar.google.com/citations?user=DCDq2T0AAAAJ&hl=en"
+            >Click here to see all my papers</a
+          >
+        </div>
+        <div class="paper-slides">
+          <h3 class="paper-title">
+            Can we justify producing univariate machine-learning forecasts with
+            satellite-derived solar irradiance?
+          </h3>
+          <q
+            >This study aims to evaluate the quality of solar forecasts
+            generated using two types of irradiance data, namely, ground-based
+            and bias-corrected satellite-derived global horizontal irradiance
+            using error decomposition frameworks. Hourly forecasts are generated
+            using 5 high-performance machine-learning models, with ground-based
+            data from 15 research-grade monitoring stations in Europe, South
+            America and Africa, and satellite-derived data at the collocated
+            pixels, separately. On top of these component forecasts, ensemble
+            forecasts are also evaluated. Instead of limiting the forecast
+            verification to a set of accuracy measures (e.g., mean bias error or
+            root mean square error), the Murphy–Winkler forecast verification
+            framework is considered, in which the joint, conditional, and
+            marginal distributions of observations and forecasts are examined.
+            The framework describes the qualities of forecast, such as
+            calibration, conditional bias, or discrimination, with quantitative
+            measures. Hence, it provides additional insights to the traditional
+            measure-oriented approach. The main results show that the forecasts
+            generated using bias-corrected satellite-derived data have
+            comparable quality as compared to those generated using ground-based
+            data.</q
+          >
+          <a
+            href="https://www.sciencedirect.com/science/article/abs/pii/S0306261919318094"
+            target="_blank"
+            class="paperlinks"
+            >Click here to access this paper</a
+          >
+          <a
+            class="paperlinks"
+            target="_blank"
+            href="https://scholar.google.com/citations?user=DCDq2T0AAAAJ&hl=en"
+            >Click here to see all my papers</a
+          >
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="contact-title">Contact Me</h2>
+      <!-- <form action="">
+        <label for="textarea">Your Message</label
+        ><textarea
+          name="textarea"
+          id="contact-text"
+          cols="30"
+          rows="10"
+          placeholder="Write your message..."
+        ></textarea>
+        <label for="email">Your Email</label>
+        <input
+          type="email"
+          name=""
+          id="contact-email"
+          placeholder="example@hotmail.com"
+        />
+        <input type="submit" value="Send" />
+      </form> -->
+      <div class="location">
+        <ul class="contact-list">
+          <li>
+            <a
+              target="_blanck"
+              href="https://sg.linkedin.com/in/mert-yagli-a2274a16"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="google-link"
+              style="text-decoration: none;"
+              target="_blanck"
+              href="https://scholar.google.com/citations?user=DCDq2T0AAAAJ&hl=en"
+              >Google Scholar</a
+            >
+          </li>
+          <li>
+            <a href="mailto:mertyagli@hotmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>Copyright &copy;2020 All rights reserved.</footer>
+
+    <script src="./js/script.js"></script>
+
+    <!-- <script src="js/scrapers.js"></script> -->
+  </body>
+</html>
